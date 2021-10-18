@@ -5,3 +5,46 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main header, .main section, .main footer {
+  border: 1px solid #000;
+}
+.main header {
+  background-color: #88f;
+  flex-basis: 50px;
+}
+.main section {
+  background-color: #8f8;
+  flex-grow: 1;
+} 
+.main footer {
+  background-color: #f88;
+  flex-basis: 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+}
+li {
+  list-style: none;
+}
+li a, 
+img.logo {
+  text-decoration: none;
+  color: #fff;
+}
