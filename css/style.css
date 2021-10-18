@@ -8,10 +8,12 @@ html {
 
 body {
   margin: 0;
+  height: 230vh;
 }
 .main {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .main header, .main section, .main footer {
@@ -19,15 +21,19 @@ body {
 }
 .main header {
   background-color: #88f;
-  flex-basis: 50px;
+  flex-basis: 42px;
 }
 .main section {
   background-color: #8f8;
-  flex-grow: 1;
+  flex-grow: 2;
 } 
 .main footer {
   background-color: #f88;
   flex-basis: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
