@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+
+  font-family: 'Roboto', arial;
+}
+
+/* MAIN */
+.main {
+  display: flex;
+  flex-direction: column;
+}
+/* COMBINATORS */
+.header, .hero, .footer {
+  display: flex;
+
+  background-color: #1F2937;
+  color: #f9faf8;
+
+  font-size: 18px;
+}
+.header, .content, .footer {
+  padding: 0 150px;
+}
+
+/* HEADER */
+.header {
+  padding-top: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  font-size: 24px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.header .links {
+  display: flex;
+  gap: 16px;
+}
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero div {
+  flex: 1 1 auto;
+
+  border: 1px solid #f00;
+}
